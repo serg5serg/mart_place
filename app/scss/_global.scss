@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  font-size: inherit;
+}
+p{
+  margin: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  background-color: #fff;
+  font-family: "Quicksand-Regular", sans-serif;
+  font-weight: 400;
+}
+.conteiner {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header__top {
+  background-color: #eef1f3;
+  align-items: center;
+}
+.header__menu {
+  padding: 17px 0;
+}

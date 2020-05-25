@@ -1,1 +1,3 @@
-n$(function () {});
+$(function () {
+  $("#Container").mixItUp({});
+});
