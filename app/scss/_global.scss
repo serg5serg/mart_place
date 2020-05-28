@@ -10,11 +10,16 @@ a {
   display: inline-block;
   text-decoration: none;
 }
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   font-size: inherit;
 }
-p{
+p {
   margin: 0;
 }
 ul,
@@ -39,4 +44,8 @@ body {
 }
 .header__menu {
   padding: 17px 0;
+}
+.slider {
+  background-color: #eff1f5;
+  padding: 120px 0;
 }
