@@ -10,6 +10,7 @@ a {
   display: inline-block;
   text-decoration: none;
 }
+*,
 h1,
 h2,
 h3,
@@ -18,6 +19,7 @@ h5,
 h6 {
   margin: 0;
   font-size: inherit;
+  font-weight: 400;
 }
 p {
   margin: 0;
@@ -29,7 +31,6 @@ li {
   list-style: none;
 }
 body {
-  background-color: #fff;
   font-family: "Quicksand-Regular", sans-serif;
   font-weight: 400;
 }
@@ -48,4 +49,15 @@ body {
 .slider {
   background-color: #eff1f5;
   padding: 120px 0;
+}
+.product {
+  background-color: #f6f7fb;
+  padding: 120px 0;
+}
+.followers {
+  background-color: #eff1f5;
+  padding: 120px 0;
+}
+.customers {
+  background-color: #0d0f13;
 }

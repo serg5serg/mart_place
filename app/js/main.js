@@ -1,9 +1,29 @@
 $(function () {
-  $(".slider_user-star").rateYo({
-    rating: 3.2,
+  $(".slider__user-rating").rateYo({
+    rating: 4.5,
     readOnly: true,
+    starWidth: "17px",
   });
-  $(".slider_conteiner").slick({});
+  $(".product__item-rating").rateYo({
+    rating: 4.5,
+    readOnly: true,
+    starWidth: "15px",
+  });
+  $(".slider__conteiner").slick({
+    nextArrow:
+      '<button class="slick-arrow slick-next"><img src="images/next.png" alt="next arrow"></button>',
+    prevArrow:
+      '<button class="slick-arrow slick-prev"><img src="images/previous.png" alt="prev arrow"></button>',
+  });
+  $(".followers__inner-box").slick({
+    nextArrow:
+      '<button class="slick-arrow slick-next"><img src="images/next.png" alt="next arrow"></button>',
+    prevArrow:
+      '<button class="slick-arrow slick-prev"><img src="images/previous.png" alt="prev arrow"></button>',
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+  });
 
-  $("#Container").mixItUp({});
+  var mixer = mixitup(".product__inner-box");
 });
