@@ -24,6 +24,11 @@ $(function () {
     slidesToShow: 3,
     slidesToScroll: 3,
   });
+  $(".feedback__inner").slick({
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    arrows: false,
+  });
 
   var mixer = mixitup(".product__inner-box");
 });
